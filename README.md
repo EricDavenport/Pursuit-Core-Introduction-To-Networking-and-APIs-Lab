@@ -8,13 +8,37 @@ Use Postman to find each of the following HTTP codes:
 
 
 1. 200
+```
+2xx means run success. 200 is the standard response for successful http request 
+```
 1. 301
+```
+301 means source has been moved permanently. All future requst should be redirected to given URL
+```
 1. 400
+```
+Bad Request server cannot preform requested action due to client errors
+```
 1. 401
+```
+Unauthorized - Aunthentication has not been approved for the client to view this page. USr doesnt have valid credentials to enter the page
+```
 1. 403
+```
+Forbidden - request was valid - but server is denying request - server denys access for multiple reasons
+```
 1. 404
+```
+Not Found - Server unable to locate resoiurce - 
+```
 1. 418
+```
+I'm a teapot - Created in 1998 as an April's Fools Joke. Hyper Text Coffee Pot Control Protocol - used as an easter egg on some sites
+```
 1. 500
+```
+Internal Server error - given when unexpected condition occurrs. USed when unable to specify the issue directly
+```
 
 
 For each of the questions below, write:
